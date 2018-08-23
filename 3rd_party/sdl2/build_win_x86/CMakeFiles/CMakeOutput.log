@@ -1,0 +1,177 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 19.11.25547 para x64
+(C) Microsoft Corporation. Todos los derechos reservados.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.11.25547.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/3.9.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_1059b\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_1059b.dir\build.make /nologo -L                  CMakeFiles\cmTC_1059b.dir\build
+Building C object CMakeFiles/cmTC_1059b.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm82E5.tmp
+testCCompiler.c
+Linking C executable cmTC_1059b.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1059b.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_1059b.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm840E.tmp
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_40a5e\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_40a5e.dir\build.make /nologo -L                  CMakeFiles\cmTC_40a5e.dir\build
+Building C object CMakeFiles/cmTC_40a5e.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm8555.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_40a5e.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_40a5e.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_40a5e.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm8575.tmp
+
+
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_0be72\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_0be72.dir\build.make /nologo -L                  CMakeFiles\cmTC_0be72.dir\build
+Building C object CMakeFiles/cmTC_0be72.dir/src.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm86AC.tmp
+src.c
+Linking C executable cmTC_0be72.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0be72.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_0be72.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm8804.tmp
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_a6c63\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_a6c63.dir\build.make /nologo -L                  CMakeFiles\cmTC_a6c63.dir\build
+Building C object CMakeFiles/cmTC_a6c63.dir/src.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm88FD.tmp
+src.c
+Linking C executable cmTC_a6c63.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a6c63.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_a6c63.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm89E8.tmp
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        int main(int argc, char **argv) { }
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_b5c43\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_b5c43.dir\build.make /nologo -L                  CMakeFiles\cmTC_b5c43.dir\build
+Building C object CMakeFiles/cmTC_b5c43.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm8CE3.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_b5c43.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b5c43.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b5c43.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm8DDE.tmp
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_917d4\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_917d4.dir\build.make /nologo -L                  CMakeFiles\cmTC_917d4.dir\build
+Building C object CMakeFiles/cmTC_917d4.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm8ED6.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_917d4.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_917d4.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_917d4.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm8FF0.tmp
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_6fa15\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_6fa15.dir\build.make /nologo -L                  CMakeFiles\cmTC_6fa15.dir\build
+Building C object CMakeFiles/cmTC_6fa15.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm90F8.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_6fa15.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6fa15.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_6fa15.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm91F3.tmp
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_b40f5\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_b40f5.dir\build.make /nologo -L                  CMakeFiles\cmTC_b40f5.dir\build
+Building C object CMakeFiles/cmTC_b40f5.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm92EB.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_b40f5.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b40f5.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b40f5.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm93D6.tmp
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_74ab4\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_74ab4.dir\build.make /nologo -L                  CMakeFiles\cmTC_74ab4.dir\build
+Building C object CMakeFiles/cmTC_74ab4.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm94DF.tmp
+CheckIncludeFile.c
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Linking C executable cmTC_74ab4.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_74ab4.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_74ab4.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm95CA.tmp
+
+
+Determining if the include file mmdeviceapi.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_492a0\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_492a0.dir\build.make /nologo -L                  CMakeFiles\cmTC_492a0.dir\build
+Building C object CMakeFiles/cmTC_492a0.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm96C2.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_492a0.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_492a0.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_492a0.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm97BD.tmp
+
+
+Determining if the include file audioclient.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_6024e\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_6024e.dir\build.make /nologo -L                  CMakeFiles\cmTC_6024e.dir\build
+Building C object CMakeFiles/cmTC_6024e.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm98C5.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_6024e.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6024e.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_6024e.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm99B0.tmp
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_c9ada\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_c9ada.dir\build.make /nologo -L                  CMakeFiles\cmTC_c9ada.dir\build
+Building C object CMakeFiles/cmTC_c9ada.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm9AB8.tmp
+CheckIncludeFile.c
+Linking C executable cmTC_c9ada.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c9ada.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_c9ada.dir\objects1.rsp @C:\Users\Gustavo\AppData\Local\Temp\nm9BA3.tmp
+
+

@@ -1,0 +1,10 @@
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/list_install_components.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/rebuild_cache.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/edit_cache.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/install/strip.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/install.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/uninstall.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/SDL2.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/install/local.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/SDL2-static.dir
+/Users/gustavo/dev/botijo/3rd_party/sdl2/build_mac_x86/CMakeFiles/SDL2main.dir

@@ -1,0 +1,9 @@
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/SDL2main.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/SDL2.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/SDL2-static.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/uninstall.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/edit_cache.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/install.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/rebuild_cache.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/list_install_components.dir
+C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/install/local.dir

@@ -1,0 +1,42 @@
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_f29bd\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_f29bd.dir\build.make /nologo -L                  CMakeFiles\cmTC_f29bd.dir\build
+Building C object CMakeFiles/cmTC_f29bd.dir/src.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm8AF0.tmp
+src.c
+C:\dev\botijo\3rd_party\sdl2\build_win_x86\CMakeFiles\CMakeTmp\src.c(4): error C2061: error de sintaxis: identificador 'x1'
+C:\dev\botijo\3rd_party\sdl2\build_win_x86\CMakeFiles\CMakeTmp\src.c(4): error C2059: error de sintaxis: ';'
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe' : c¾digo devuelto '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe"' : c¾digo devuelto '0x2'
+Stop.
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/dev/botijo/3rd_party/sdl2/build_win_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_04b4a\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_04b4a.dir\build.make /nologo -L                  CMakeFiles\cmTC_04b4a.dir\build
+Building C object CMakeFiles/cmTC_04b4a.dir/src.c.obj
+	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe @C:\Users\Gustavo\AppData\Local\Temp\nm8BE9.tmp
+src.c
+C:\dev\botijo\3rd_party\sdl2\build_win_x86\CMakeFiles\CMakeTmp\src.c(4): error C2061: error de sintaxis: identificador 's1'
+C:\dev\botijo\3rd_party\sdl2\build_win_x86\CMakeFiles\CMakeTmp\src.c(4): error C2059: error de sintaxis: ';'
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\HostX64\x64\cl.exe' : c¾digo devuelto '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe"' : c¾digo devuelto '0x2'
+Stop.
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }

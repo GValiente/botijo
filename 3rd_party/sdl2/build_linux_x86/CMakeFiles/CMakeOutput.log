@@ -1,0 +1,2292 @@
+The system is: Linux - 4.15.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/3.9.6/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f286d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f286d.dir/build.make CMakeFiles/cmTC_f286d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f286d.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f286d.dir/testCCompiler.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f286d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f286d.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f286d.dir/testCCompiler.c.o  -o cmTC_f286d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_693bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_693bc.dir/build.make CMakeFiles/cmTC_693bc.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_693bc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693bc.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o  -o cmTC_693bc 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_693bc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO5APge.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_693bc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_693bc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_693bc.dir/build.make CMakeFiles/cmTC_693bc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_693bc]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693bc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o  -o cmTC_693bc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_693bc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO5APge.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_693bc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccO5APge.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_693bc] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_693bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d407/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d407.dir/build.make CMakeFiles/cmTC_9d407.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d407.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_9d407.dir/feature_tests.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9d407
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d407.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_9d407.dir/feature_tests.c.o  -o cmTC_9d407 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb9ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb9ba.dir/build.make CMakeFiles/cmTC_fb9ba.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb9ba.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_fb9ba.dir/feature_tests.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fb9ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb9ba.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_fb9ba.dir/feature_tests.c.o  -o cmTC_fb9ba 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab1bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab1bd.dir/build.make CMakeFiles/cmTC_ab1bd.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab1bd.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_ab1bd.dir/feature_tests.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ab1bd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab1bd.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_ab1bd.dir/feature_tests.c.o  -o cmTC_ab1bd 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e70a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e70a.dir/build.make CMakeFiles/cmTC_7e70a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e70a.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTC_7e70a.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e70a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e70a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WALL    -rdynamic CMakeFiles/cmTC_7e70a.dir/src.c.o  -o cmTC_7e70a 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6495.dir/build.make CMakeFiles/cmTC_c6495.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6495.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT   -Wdeclaration-after-statement -o CMakeFiles/cmTC_c6495.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c6495
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6495.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT    -rdynamic CMakeFiles/cmTC_c6495.dir/src.c.o  -o cmTC_c6495 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df245/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df245.dir/build.make CMakeFiles/cmTC_df245.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df245.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT   -Werror=declaration-after-statement -o CMakeFiles/cmTC_df245.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df245
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df245.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT    -rdynamic CMakeFiles/cmTC_df245.dir/src.c.o  -o cmTC_df245 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_febe9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_febe9.dir/build.make CMakeFiles/cmTC_febe9.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_febe9.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTC_febe9.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_febe9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_febe9.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_ATOMICS    -rdynamic CMakeFiles/cmTC_febe9.dir/src.c.o  -o cmTC_febe9 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16813/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16813.dir/build.make CMakeFiles/cmTC_16813.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16813.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_16813.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16813
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16813.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror    -rdynamic CMakeFiles/cmTC_16813.dir/src.c.o  -o cmTC_16813 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dce5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dce5.dir/build.make CMakeFiles/cmTC_2dce5.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dce5.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WSHADOW   -Wshadow -o CMakeFiles/cmTC_2dce5.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2dce5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dce5.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_WSHADOW    -rdynamic CMakeFiles/cmTC_2dce5.dir/src.c.o  -o cmTC_2dce5 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b544.dir/build.make CMakeFiles/cmTC_8b544.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b544.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_NO_UNDEFINED -Wl,--no-undefined   -o CMakeFiles/cmTC_8b544.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8b544
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b544.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_NO_UNDEFINED -Wl,--no-undefined    -rdynamic CMakeFiles/cmTC_8b544.dir/src.c.o  -o cmTC_8b544 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ade2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ade2.dir/build.make CMakeFiles/cmTC_3ade2.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ade2.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_MMX -mmmx   -o CMakeFiles/cmTC_3ade2.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ade2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ade2.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_MMX -mmmx    -rdynamic CMakeFiles/cmTC_3ade2.dir/src.c.o  -o cmTC_3ade2 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8c29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8c29.dir/build.make CMakeFiles/cmTC_d8c29.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8c29.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_3DNOW -m3dnow   -o CMakeFiles/cmTC_d8c29.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d8c29
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c29.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_3DNOW -m3dnow    -rdynamic CMakeFiles/cmTC_d8c29.dir/src.c.o  -o cmTC_d8c29 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f52cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f52cf.dir/build.make CMakeFiles/cmTC_f52cf.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f52cf.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE -msse   -o CMakeFiles/cmTC_f52cf.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f52cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f52cf.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE -msse    -rdynamic CMakeFiles/cmTC_f52cf.dir/src.c.o  -o cmTC_f52cf 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_083fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_083fa.dir/build.make CMakeFiles/cmTC_083fa.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_083fa.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE2 -msse2   -o CMakeFiles/cmTC_083fa.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_083fa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_083fa.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE2 -msse2    -rdynamic CMakeFiles/cmTC_083fa.dir/src.c.o  -o cmTC_083fa 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a4c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a4c9.dir/build.make CMakeFiles/cmTC_8a4c9.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a4c9.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE3 -msse3   -o CMakeFiles/cmTC_8a4c9.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a4c9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a4c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SSE3 -msse3    -rdynamic CMakeFiles/cmTC_8a4c9.dir/src.c.o  -o cmTC_8a4c9 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2feda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2feda.dir/build.make CMakeFiles/cmTC_2feda.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2feda.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_2feda.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2feda
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2feda.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_2feda.dir/CheckIncludeFile.c.o  -o cmTC_2feda 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82a3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82a3a.dir/build.make CMakeFiles/cmTC_82a3a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82a3a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_82a3a.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82a3a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82a3a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_82a3a.dir/CheckIncludeFile.c.o  -o cmTC_82a3a 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18a32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18a32.dir/build.make CMakeFiles/cmTC_18a32.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18a32.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_18a32.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18a32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18a32.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_18a32.dir/CheckIncludeFile.c.o  -o cmTC_18a32 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_923fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_923fb.dir/build.make CMakeFiles/cmTC_923fb.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_923fb.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_923fb.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_923fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_923fb.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_923fb.dir/CheckIncludeFile.c.o  -o cmTC_923fb 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1209c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1209c.dir/build.make CMakeFiles/cmTC_1209c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1209c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_1209c.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1209c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1209c.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_1209c.dir/CheckIncludeFile.c.o  -o cmTC_1209c 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae3e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae3e8.dir/build.make CMakeFiles/cmTC_ae3e8.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae3e8.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_ae3e8.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ae3e8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3e8.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_ae3e8.dir/CheckIncludeFile.c.o  -o cmTC_ae3e8 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52094/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52094.dir/build.make CMakeFiles/cmTC_52094.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52094.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_52094.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52094
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52094.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_52094.dir/CheckIncludeFile.c.o  -o cmTC_52094 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67181/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67181.dir/build.make CMakeFiles/cmTC_67181.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67181.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_67181.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67181
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67181.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_67181.dir/CheckIncludeFile.c.o  -o cmTC_67181 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8a41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8a41.dir/build.make CMakeFiles/cmTC_e8a41.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8a41.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_e8a41.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8a41
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a41.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_e8a41.dir/CheckIncludeFile.c.o  -o cmTC_e8a41 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1658/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1658.dir/build.make CMakeFiles/cmTC_e1658.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1658.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_e1658.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e1658
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1658.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_e1658.dir/CheckIncludeFile.c.o  -o cmTC_e1658 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f925e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f925e.dir/build.make CMakeFiles/cmTC_f925e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f925e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_f925e.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f925e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f925e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_f925e.dir/CheckIncludeFile.c.o  -o cmTC_f925e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48749/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48749.dir/build.make CMakeFiles/cmTC_48749.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48749.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_48749.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48749
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48749.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_48749.dir/CheckIncludeFile.c.o  -o cmTC_48749 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_beff7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_beff7.dir/build.make CMakeFiles/cmTC_beff7.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_beff7.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_beff7.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_beff7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beff7.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_beff7.dir/CheckIncludeFile.c.o  -o cmTC_beff7 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b844/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b844.dir/build.make CMakeFiles/cmTC_5b844.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b844.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_5b844.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5b844
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b844.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_5b844.dir/CheckIncludeFile.c.o  -o cmTC_5b844 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8ffd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8ffd.dir/build.make CMakeFiles/cmTC_d8ffd.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8ffd.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_d8ffd.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8ffd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ffd.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_d8ffd.dir/CheckIncludeFile.c.o  -o cmTC_d8ffd 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dabad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dabad.dir/build.make CMakeFiles/cmTC_dabad.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dabad.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_dabad.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dabad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dabad.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_dabad.dir/CheckIncludeFile.c.o  -o cmTC_dabad 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b5f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b5f6.dir/build.make CMakeFiles/cmTC_4b5f6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b5f6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_4b5f6.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4b5f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b5f6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_4b5f6.dir/CheckIncludeFile.c.o  -o cmTC_4b5f6 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfcb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfcb2.dir/build.make CMakeFiles/cmTC_dfcb2.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfcb2.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_dfcb2.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dfcb2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfcb2.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_dfcb2.dir/CheckIncludeFile.c.o  -o cmTC_dfcb2 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88735/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88735.dir/build.make CMakeFiles/cmTC_88735.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88735.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_88735.dir/CheckIncludeFiles.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_88735
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88735.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_88735.dir/CheckIncludeFiles.c.o  -o cmTC_88735 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afd92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afd92.dir/build.make CMakeFiles/cmTC_afd92.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afd92.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_afd92.dir/SIZEOF_SIZE_T.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_afd92
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afd92.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_afd92.dir/SIZEOF_SIZE_T.c.o  -o cmTC_afd92 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca897/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca897.dir/build.make CMakeFiles/cmTC_ca897.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca897.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_ca897.dir/CheckSymbolExists.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca897
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca897.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_ca897.dir/CheckSymbolExists.c.o  -o cmTC_ca897 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+File /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_879b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_879b6.dir/build.make CMakeFiles/cmTC_879b6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_879b6.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_MPROTECT   -o CMakeFiles/cmTC_879b6.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_879b6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_879b6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_MPROTECT    -rdynamic CMakeFiles/cmTC_879b6.dir/src.c.o  -o cmTC_879b6 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2af6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2af6a.dir/build.make CMakeFiles/cmTC_2af6a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2af6a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_2af6a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2af6a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af6a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod    -rdynamic CMakeFiles/cmTC_2af6a.dir/CheckFunctionExists.c.o  -o cmTC_2af6a 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e732/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e732.dir/build.make CMakeFiles/cmTC_7e732.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e732.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_7e732.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_7e732
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e732.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc    -rdynamic CMakeFiles/cmTC_7e732.dir/CheckFunctionExists.c.o  -o cmTC_7e732 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7c73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7c73.dir/build.make CMakeFiles/cmTC_b7c73.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7c73.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_b7c73.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_b7c73
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7c73.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc    -rdynamic CMakeFiles/cmTC_b7c73.dir/CheckFunctionExists.c.o  -o cmTC_b7c73 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_beafd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_beafd.dir/build.make CMakeFiles/cmTC_beafd.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_beafd.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_beafd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_beafd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beafd.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc    -rdynamic CMakeFiles/cmTC_beafd.dir/CheckFunctionExists.c.o  -o cmTC_beafd 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6a2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6a2d.dir/build.make CMakeFiles/cmTC_f6a2d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6a2d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_f6a2d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_f6a2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6a2d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=free    -rdynamic CMakeFiles/cmTC_f6a2d.dir/CheckFunctionExists.c.o  -o cmTC_f6a2d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83300/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83300.dir/build.make CMakeFiles/cmTC_83300.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83300.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_83300.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83300
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83300.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv    -rdynamic CMakeFiles/cmTC_83300.dir/CheckFunctionExists.c.o  -o cmTC_83300 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fcb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fcb0.dir/build.make CMakeFiles/cmTC_0fcb0.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fcb0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_0fcb0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0fcb0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fcb0.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv    -rdynamic CMakeFiles/cmTC_0fcb0.dir/CheckFunctionExists.c.o  -o cmTC_0fcb0 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e96a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e96a4.dir/build.make CMakeFiles/cmTC_e96a4.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e96a4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_e96a4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e96a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96a4.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv    -rdynamic CMakeFiles/cmTC_e96a4.dir/CheckFunctionExists.c.o  -o cmTC_e96a4 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_515fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_515fb.dir/build.make CMakeFiles/cmTC_515fb.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_515fb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_515fb.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_515fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_515fb.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv    -rdynamic CMakeFiles/cmTC_515fb.dir/CheckFunctionExists.c.o  -o cmTC_515fb 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_397e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_397e4.dir/build.make CMakeFiles/cmTC_397e4.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_397e4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_397e4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_397e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397e4.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort    -rdynamic CMakeFiles/cmTC_397e4.dir/CheckFunctionExists.c.o  -o cmTC_397e4 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b15e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b15e.dir/build.make CMakeFiles/cmTC_7b15e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b15e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTC_7b15e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘abs’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_7b15e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b15e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs    -rdynamic CMakeFiles/cmTC_7b15e.dir/CheckFunctionExists.c.o  -o cmTC_7b15e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44bcf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44bcf.dir/build.make CMakeFiles/cmTC_44bcf.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44bcf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTC_44bcf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘bcopy’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_44bcf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bcf.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy    -rdynamic CMakeFiles/cmTC_44bcf.dir/CheckFunctionExists.c.o  -o cmTC_44bcf 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1ac3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1ac3.dir/build.make CMakeFiles/cmTC_f1ac3.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1ac3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_f1ac3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_f1ac3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ac3.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_f1ac3.dir/CheckFunctionExists.c.o  -o cmTC_f1ac3 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69c21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69c21.dir/build.make CMakeFiles/cmTC_69c21.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69c21.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_69c21.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_69c21
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69c21.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy    -rdynamic CMakeFiles/cmTC_69c21.dir/CheckFunctionExists.c.o  -o cmTC_69c21 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_354d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_354d6.dir/build.make CMakeFiles/cmTC_354d6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_354d6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_354d6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_354d6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354d6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_354d6.dir/CheckFunctionExists.c.o  -o cmTC_354d6 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5be2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5be2d.dir/build.make CMakeFiles/cmTC_5be2d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5be2d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_5be2d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcmp’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_5be2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5be2d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp    -rdynamic CMakeFiles/cmTC_5be2d.dir/CheckFunctionExists.c.o  -o cmTC_5be2d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77b4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77b4d.dir/build.make CMakeFiles/cmTC_77b4d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77b4d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTC_77b4d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strlen’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_77b4d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b4d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen    -rdynamic CMakeFiles/cmTC_77b4d.dir/CheckFunctionExists.c.o  -o cmTC_77b4d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb29d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb29d.dir/build.make CMakeFiles/cmTC_eb29d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb29d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_eb29d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_eb29d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb29d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr    -rdynamic CMakeFiles/cmTC_eb29d.dir/CheckFunctionExists.c.o  -o cmTC_eb29d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf338/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf338.dir/build.make CMakeFiles/cmTC_bf338.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf338.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_bf338.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_bf338
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf338.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr    -rdynamic CMakeFiles/cmTC_bf338.dir/CheckFunctionExists.c.o  -o cmTC_bf338 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59dae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59dae.dir/build.make CMakeFiles/cmTC_59dae.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59dae.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_59dae.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_59dae
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59dae.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr    -rdynamic CMakeFiles/cmTC_59dae.dir/CheckFunctionExists.c.o  -o cmTC_59dae 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d503f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d503f.dir/build.make CMakeFiles/cmTC_d503f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d503f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_d503f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d503f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d503f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol    -rdynamic CMakeFiles/cmTC_d503f.dir/CheckFunctionExists.c.o  -o cmTC_d503f 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5484e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5484e.dir/build.make CMakeFiles/cmTC_5484e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5484e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTC_5484e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5484e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5484e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul    -rdynamic CMakeFiles/cmTC_5484e.dir/CheckFunctionExists.c.o  -o cmTC_5484e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbcd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbcd6.dir/build.make CMakeFiles/cmTC_fbcd6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbcd6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_fbcd6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbcd6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbcd6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll    -rdynamic CMakeFiles/cmTC_fbcd6.dir/CheckFunctionExists.c.o  -o cmTC_fbcd6 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cd4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cd4f.dir/build.make CMakeFiles/cmTC_4cd4f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cd4f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_4cd4f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4cd4f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd4f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull    -rdynamic CMakeFiles/cmTC_4cd4f.dir/CheckFunctionExists.c.o  -o cmTC_4cd4f 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba39a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba39a.dir/build.make CMakeFiles/cmTC_ba39a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba39a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_ba39a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba39a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba39a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi    -rdynamic CMakeFiles/cmTC_ba39a.dir/CheckFunctionExists.c.o  -o cmTC_ba39a 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7c98/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7c98.dir/build.make CMakeFiles/cmTC_a7c98.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7c98.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTC_a7c98.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7c98
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7c98.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof    -rdynamic CMakeFiles/cmTC_a7c98.dir/CheckFunctionExists.c.o  -o cmTC_a7c98 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db0d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db0d0.dir/build.make CMakeFiles/cmTC_db0d0.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db0d0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_db0d0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_db0d0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db0d0.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp    -rdynamic CMakeFiles/cmTC_db0d0.dir/CheckFunctionExists.c.o  -o cmTC_db0d0 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10af5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10af5.dir/build.make CMakeFiles/cmTC_10af5.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10af5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTC_10af5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncmp’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_10af5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10af5.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp    -rdynamic CMakeFiles/cmTC_10af5.dir/CheckFunctionExists.c.o  -o cmTC_10af5 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af261/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af261.dir/build.make CMakeFiles/cmTC_af261.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af261.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_af261.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_af261
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af261.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_af261.dir/CheckFunctionExists.c.o  -o cmTC_af261 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d2e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d2e5.dir/build.make CMakeFiles/cmTC_8d2e5.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d2e5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_8d2e5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_8d2e5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d2e5.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp    -rdynamic CMakeFiles/cmTC_8d2e5.dir/CheckFunctionExists.c.o  -o cmTC_8d2e5 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0bdf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0bdf.dir/build.make CMakeFiles/cmTC_b0bdf.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0bdf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf   -o CMakeFiles/cmTC_b0bdf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsscanf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_b0bdf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0bdf.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf    -rdynamic CMakeFiles/cmTC_b0bdf.dir/CheckFunctionExists.c.o  -o cmTC_b0bdf 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66413/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66413.dir/build.make CMakeFiles/cmTC_66413.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66413.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_66413.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_66413
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66413.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_66413.dir/CheckFunctionExists.c.o  -o cmTC_66413 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fopen64 exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e140/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e140.dir/build.make CMakeFiles/cmTC_2e140.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e140.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64   -o CMakeFiles/cmTC_2e140.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e140
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e140.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64    -rdynamic CMakeFiles/cmTC_2e140.dir/CheckFunctionExists.c.o  -o cmTC_2e140 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8042b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8042b.dir/build.make CMakeFiles/cmTC_8042b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8042b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_8042b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8042b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8042b.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_8042b.dir/CheckFunctionExists.c.o  -o cmTC_8042b 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82ace.dir/build.make CMakeFiles/cmTC_82ace.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82ace.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTC_82ace.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82ace
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82ace.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64    -rdynamic CMakeFiles/cmTC_82ace.dir/CheckFunctionExists.c.o  -o cmTC_82ace 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c41f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c41f.dir/build.make CMakeFiles/cmTC_0c41f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c41f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_0c41f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c41f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c41f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_0c41f.dir/CheckFunctionExists.c.o  -o cmTC_0c41f 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fc5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fc5c.dir/build.make CMakeFiles/cmTC_7fc5c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fc5c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_7fc5c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7fc5c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fc5c.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_7fc5c.dir/CheckFunctionExists.c.o  -o cmTC_7fc5c 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef212/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef212.dir/build.make CMakeFiles/cmTC_ef212.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef212.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_ef212.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef212
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef212.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep    -rdynamic CMakeFiles/cmTC_ef212.dir/CheckFunctionExists.c.o  -o cmTC_ef212 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2baaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2baaf.dir/build.make CMakeFiles/cmTC_2baaf.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2baaf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_2baaf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2baaf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2baaf.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf    -rdynamic CMakeFiles/cmTC_2baaf.dir/CheckFunctionExists.c.o  -o cmTC_2baaf 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cb18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cb18.dir/build.make CMakeFiles/cmTC_1cb18.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cb18.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles/cmTC_1cb18.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1cb18
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cb18.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval    -rdynamic CMakeFiles/cmTC_1cb18.dir/CheckFunctionExists.c.o  -o cmTC_1cb18 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0de9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0de9e.dir/build.make CMakeFiles/cmTC_0de9e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0de9e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_0de9e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0de9e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de9e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll    -rdynamic CMakeFiles/cmTC_0de9e.dir/CheckFunctionExists.c.o  -o cmTC_0de9e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21c1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21c1f.dir/build.make CMakeFiles/cmTC_21c1f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21c1f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_21c1f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_21c1f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c1f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow    -rdynamic CMakeFiles/cmTC_21c1f.dir/CheckFunctionExists.c.o  -o cmTC_21c1f -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e316a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e316a.dir/build.make CMakeFiles/cmTC_e316a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e316a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTC_e316a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_e316a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e316a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan    -rdynamic CMakeFiles/cmTC_e316a.dir/CheckFunctionExists.c.o  -o cmTC_e316a -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9099/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9099.dir/build.make CMakeFiles/cmTC_c9099.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9099.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_c9099.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan2’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_c9099
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9099.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2    -rdynamic CMakeFiles/cmTC_c9099.dir/CheckFunctionExists.c.o  -o cmTC_c9099 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43727/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43727.dir/build.make CMakeFiles/cmTC_43727.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43727.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_43727.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘ceil’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_43727
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43727.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil    -rdynamic CMakeFiles/cmTC_43727.dir/CheckFunctionExists.c.o  -o cmTC_43727 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58b27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58b27.dir/build.make CMakeFiles/cmTC_58b27.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58b27.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_58b27.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘copysign’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_58b27
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58b27.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign    -rdynamic CMakeFiles/cmTC_58b27.dir/CheckFunctionExists.c.o  -o cmTC_58b27 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba03e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba03e.dir/build.make CMakeFiles/cmTC_ba03e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba03e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_ba03e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘cos’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_ba03e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba03e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos    -rdynamic CMakeFiles/cmTC_ba03e.dir/CheckFunctionExists.c.o  -o cmTC_ba03e -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27854/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27854.dir/build.make CMakeFiles/cmTC_27854.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27854.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTC_27854.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘cosf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_27854
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27854.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf    -rdynamic CMakeFiles/cmTC_27854.dir/CheckFunctionExists.c.o  -o cmTC_27854 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a584f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a584f.dir/build.make CMakeFiles/cmTC_a584f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a584f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTC_a584f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fabs’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_a584f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a584f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs    -rdynamic CMakeFiles/cmTC_a584f.dir/CheckFunctionExists.c.o  -o cmTC_a584f -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f0c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f0c9.dir/build.make CMakeFiles/cmTC_8f0c9.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f0c9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_8f0c9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_8f0c9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f0c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_8f0c9.dir/CheckFunctionExists.c.o  -o cmTC_8f0c9 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0830/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0830.dir/build.make CMakeFiles/cmTC_b0830.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0830.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_b0830.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_b0830
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0830.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=log    -rdynamic CMakeFiles/cmTC_b0830.dir/CheckFunctionExists.c.o  -o cmTC_b0830 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77cc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77cc6.dir/build.make CMakeFiles/cmTC_77cc6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77cc6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_77cc6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_77cc6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77cc6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow    -rdynamic CMakeFiles/cmTC_77cc6.dir/CheckFunctionExists.c.o  -o cmTC_77cc6 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a591a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a591a.dir/build.make CMakeFiles/cmTC_a591a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a591a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTC_a591a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘scalbn’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_a591a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a591a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn    -rdynamic CMakeFiles/cmTC_a591a.dir/CheckFunctionExists.c.o  -o cmTC_a591a -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa57b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa57b.dir/build.make CMakeFiles/cmTC_fa57b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa57b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTC_fa57b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sin’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_fa57b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa57b.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin    -rdynamic CMakeFiles/cmTC_fa57b.dir/CheckFunctionExists.c.o  -o cmTC_fa57b -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30ea9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30ea9.dir/build.make CMakeFiles/cmTC_30ea9.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30ea9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTC_30ea9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sinf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_30ea9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ea9.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf    -rdynamic CMakeFiles/cmTC_30ea9.dir/CheckFunctionExists.c.o  -o cmTC_30ea9 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9d86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9d86.dir/build.make CMakeFiles/cmTC_e9d86.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9d86.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_e9d86.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_e9d86
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d86.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt    -rdynamic CMakeFiles/cmTC_e9d86.dir/CheckFunctionExists.c.o  -o cmTC_e9d86 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2880e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2880e.dir/build.make CMakeFiles/cmTC_2880e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2880e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTC_2880e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrtf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_2880e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2880e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf    -rdynamic CMakeFiles/cmTC_2880e.dir/CheckFunctionExists.c.o  -o cmTC_2880e -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7822/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7822.dir/build.make CMakeFiles/cmTC_f7822.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7822.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan   -o CMakeFiles/cmTC_f7822.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘tan’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_f7822
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7822.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan    -rdynamic CMakeFiles/cmTC_f7822.dir/CheckFunctionExists.c.o  -o cmTC_f7822 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf561/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf561.dir/build.make CMakeFiles/cmTC_bf561.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf561.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf   -o CMakeFiles/cmTC_bf561.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘tanf’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_bf561
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf561.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf    -rdynamic CMakeFiles/cmTC_bf561.dir/CheckFunctionExists.c.o  -o cmTC_bf561 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6317d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6317d.dir/build.make CMakeFiles/cmTC_6317d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6317d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos   -o CMakeFiles/cmTC_6317d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘acos’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_6317d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6317d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos    -rdynamic CMakeFiles/cmTC_6317d.dir/CheckFunctionExists.c.o  -o cmTC_6317d -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_749d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_749d1.dir/build.make CMakeFiles/cmTC_749d1.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_749d1.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin   -o CMakeFiles/cmTC_749d1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘asin’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_749d1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749d1.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin    -rdynamic CMakeFiles/cmTC_749d1.dir/CheckFunctionExists.c.o  -o cmTC_749d1 -lm 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_419a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_419a5.dir/build.make CMakeFiles/cmTC_419a5.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_419a5.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_419a5.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_419a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_419a5.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_419a5.dir/CheckIncludeFile.c.o  -o cmTC_419a5 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4f75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4f75.dir/build.make CMakeFiles/cmTC_c4f75.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4f75.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTC_c4f75.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c4f75
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4f75.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SA_SIGACTION    -rdynamic CMakeFiles/cmTC_c4f75.dir/src.c.o  -o cmTC_c4f75 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1523a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1523a.dir/build.make CMakeFiles/cmTC_1523a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1523a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_1523a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1523a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1523a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_1523a.dir/CheckFunctionExists.c.o  -o cmTC_1523a -ldl 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test OSS_FOUND succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d64ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d64ce.dir/build.make CMakeFiles/cmTC_d64ce.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d64ce.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DOSS_FOUND   -o CMakeFiles/cmTC_d64ce.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d64ce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d64ce.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DOSS_FOUND    -rdynamic CMakeFiles/cmTC_d64ce.dir/src.c.o  -o cmTC_d64ce 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <sys/soundcard.h>
+        int main() { int arg = SNDCTL_DSP_SETFRAGMENT; }
+Determining if the include file X11/Xcursor/Xcursor.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_572fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_572fe.dir/build.make CMakeFiles/cmTC_572fe.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_572fe.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_572fe.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_572fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_572fe.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_572fe.dir/CheckIncludeFile.c.o  -o cmTC_572fe 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c35e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c35e.dir/build.make CMakeFiles/cmTC_2c35e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c35e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_2c35e.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c35e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c35e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_2c35e.dir/CheckIncludeFile.c.o  -o cmTC_2c35e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/XInput2.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_485b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_485b8.dir/build.make CMakeFiles/cmTC_485b8.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_485b8.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_485b8.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_485b8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_485b8.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_485b8.dir/CheckIncludeFile.c.o  -o cmTC_485b8 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5259/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5259.dir/build.make CMakeFiles/cmTC_d5259.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5259.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_d5259.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d5259
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5259.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_d5259.dir/CheckIncludeFile.c.o  -o cmTC_d5259 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrender.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_138bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_138bc.dir/build.make CMakeFiles/cmTC_138bc.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_138bc.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_138bc.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_138bc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_138bc.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_138bc.dir/CheckIncludeFile.c.o  -o cmTC_138bc 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/shape.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72373/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72373.dir/build.make CMakeFiles/cmTC_72373.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72373.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_72373.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72373
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72373.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_72373.dir/CheckIncludeFile.c.o  -o cmTC_72373 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed174/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed174.dir/build.make CMakeFiles/cmTC_ed174.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed174.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_ed174.dir/CheckIncludeFiles.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ed174
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed174.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_ed174.dir/CheckIncludeFiles.c.o  -o cmTC_ed174 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/Xlib.h;X11/Xproto.h;X11/extensions/Xext.h exist passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_646c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_646c8.dir/build.make CMakeFiles/cmTC_646c8.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_646c8.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_646c8.dir/CheckIncludeFiles.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_646c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_646c8.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -rdynamic CMakeFiles/cmTC_646c8.dir/CheckIncludeFiles.c.o  -o cmTC_646c8 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b9d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b9d4.dir/build.make CMakeFiles/cmTC_8b9d4.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b9d4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_8b9d4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b9d4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b9d4.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_8b9d4.dir/CheckFunctionExists.c.o  -o cmTC_8b9d4 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_CONST_XEXT_ADDDISPLAY succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7252d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7252d.dir/build.make CMakeFiles/cmTC_7252d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7252d.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_CONST_XEXT_ADDDISPLAY   -o CMakeFiles/cmTC_7252d.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7252d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7252d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_CONST_XEXT_ADDDISPLAY    -rdynamic CMakeFiles/cmTC_7252d.dir/src.c.o  -o cmTC_7252d /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          #include <X11/Xproto.h>
+          #include <X11/extensions/Xext.h>
+          #include <X11/extensions/extutil.h>
+          extern XExtDisplayInfo* XextAddDisplay(XExtensionInfo* a,Display* b,_Xconst char* c,XExtensionHooks* d,int e,XPointer f);
+          int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5b37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5b37.dir/build.make CMakeFiles/cmTC_e5b37.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b37.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_XGENERICEVENT   -o CMakeFiles/cmTC_e5b37.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e5b37
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5b37.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_XGENERICEVENT    -rdynamic CMakeFiles/cmTC_e5b37.dir/src.c.o  -o cmTC_e5b37 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie); }
+Determining if the function XkbKeycodeToKeysym exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_497db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_497db.dir/build.make CMakeFiles/cmTC_497db.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_497db.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym   -o CMakeFiles/cmTC_497db.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_497db
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_497db.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym    -rdynamic CMakeFiles/cmTC_497db.dir/CheckFunctionExists.c.o  -o cmTC_497db /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6848c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6848c.dir/build.make CMakeFiles/cmTC_6848c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6848c.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_XINPUT2_MULTITOUCH   -o CMakeFiles/cmTC_6848c.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6848c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6848c.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_XINPUT2_MULTITOUCH    -rdynamic CMakeFiles/cmTC_6848c.dir/src.c.o  -o cmTC_6848c /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libX11.so 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f)
+            {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e348/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e348.dir/build.make CMakeFiles/cmTC_8e348.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e348.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGL   -o CMakeFiles/cmTC_8e348.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8e348
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e348.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGL    -rdynamic CMakeFiles/cmTC_8e348.dir/src.c.o  -o cmTC_8e348 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glx.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL_EGL succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d47fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d47fb.dir/build.make CMakeFiles/cmTC_d47fb.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d47fb.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGL_EGL   -o CMakeFiles/cmTC_d47fb.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d47fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d47fb.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGL_EGL    -rdynamic CMakeFiles/cmTC_d47fb.dir/src.c.o  -o cmTC_d47fb 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #define EGL_API_FB
+        #include <EGL/egl.h>
+        int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V2 succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a91f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a91f.dir/build.make CMakeFiles/cmTC_2a91f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a91f.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGLES_V2   -o CMakeFiles/cmTC_2a91f.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2a91f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a91f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGLES_V2    -rdynamic CMakeFiles/cmTC_2a91f.dir/src.c.o  -o cmTC_2a91f 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_EVENTS succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9e2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9e2d.dir/build.make CMakeFiles/cmTC_a9e2d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9e2d.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_INPUT_EVENTS   -o CMakeFiles/cmTC_a9e2d.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a9e2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9e2d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_INPUT_EVENTS    -rdynamic CMakeFiles/cmTC_a9e2d.dir/src.c.o  -o cmTC_a9e2d 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <linux/input.h>
+        #ifndef EVIOCGNAME
+        #error EVIOCGNAME() ioctl not available
+        #endif
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_KD succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4ace.dir/build.make CMakeFiles/cmTC_f4ace.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4ace.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_INPUT_KD   -o CMakeFiles/cmTC_f4ace.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:9:13: warning: implicit declaration of function ‘ioctl’ [-Wimplicit-function-declaration]
+             ioctl(0, KDGKBENT, &kbe);
+             ^
+Linking C executable cmTC_f4ace
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ace.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_INPUT_KD    -rdynamic CMakeFiles/cmTC_f4ace.dir/src.c.o  -o cmTC_f4ace 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <linux/kd.h>
+        #include <linux/keyboard.h>
+
+        int main(int argc, char **argv)
+        {
+            struct kbentry kbe;
+            kbe.kb_table = KG_CTRL;
+            ioctl(0, KDGKBENT, &kbe);
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ea7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ea7a.dir/build.make CMakeFiles/cmTC_2ea7a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ea7a.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_PTHREADS   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_2ea7a.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ea7a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea7a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_PTHREADS   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_2ea7a.dir/src.c.o  -o cmTC_2ea7a 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7299c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7299c.dir/build.make CMakeFiles/cmTC_7299c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7299c.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_7299c.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7299c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7299c.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_7299c.dir/src.c.o  -o cmTC_7299c 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b13e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b13e.dir/build.make CMakeFiles/cmTC_4b13e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b13e.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_4b13e.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4b13e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b13e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_4b13e.dir/src.c.o  -o cmTC_4b13e 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11ce6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11ce6.dir/build.make CMakeFiles/cmTC_11ce6.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11ce6.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_11ce6.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11ce6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11ce6.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_11ce6.dir/src.c.o  -o cmTC_11ce6 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1427/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1427.dir/build.make CMakeFiles/cmTC_a1427.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1427.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_a1427.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1427
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1427.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_a1427.dir/CheckFunctionExists.c.o  -o cmTC_a1427 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/version.h exists passed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10722/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10722.dir/build.make CMakeFiles/cmTC_10722.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10722.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos     -o CMakeFiles/cmTC_10722.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_10722
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10722.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos      -rdynamic CMakeFiles/cmTC_10722.dir/CheckIncludeFile.c.o  -o cmTC_10722 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ENABLE_NEW_DTAGS succeeded with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07c29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07c29.dir/build.make CMakeFiles/cmTC_07c29.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07c29.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags   -o CMakeFiles/cmTC_07c29.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_07c29
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c29.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags    -rdynamic CMakeFiles/cmTC_07c29.dir/src.c.o  -o cmTC_07c29 
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

@@ -1,0 +1,10 @@
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/install.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/list_install_components.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/rebuild_cache.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/edit_cache.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/SDL2main.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/SDL2-static.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/install/strip.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/install/local.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/SDL2.dir
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/uninstall.dir

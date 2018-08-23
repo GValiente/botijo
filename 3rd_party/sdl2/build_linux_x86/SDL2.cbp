@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SDL2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\include\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main/fast">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2-static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static/fast">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2-static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2-2.0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2/fast">
+				<Option output="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/libSDL2-2.0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/include"/>
+					<Add directory="/home/gustavo/dev/botijo/3rd_party/sdl2/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 SDL2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_assert.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_dataqueue.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_dataqueue.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_error.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_hints.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/SDL_log.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/atomic/SDL_atomic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/atomic/SDL_spinlock.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_audio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_audiocvt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_audiodev.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_audiotypecvt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_mixer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_wave.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/SDL_wave.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/disk/SDL_diskaudio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/disk/SDL_diskaudio.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/dsp/SDL_dspaudio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/dsp/SDL_dspaudio.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/dummy/SDL_dummyaudio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/audio/dummy/SDL_dummyaudio.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_dbus.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_dbus.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_evdev.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_evdev.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_evdev_kbd.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_evdev_kbd.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_fcitx.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_fcitx.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_ibus.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_ibus.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_ime.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_ime.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_udev.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/linux/SDL_udev.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/unix/SDL_poll.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/core/unix/SDL_poll.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/cpuinfo/SDL_cpuinfo.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/dynapi/SDL_dynapi.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/dynapi/SDL_dynapi.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_clipboardevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_dropevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_events.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_gesture.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_keyboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_mouse.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_quit.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_touch.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/events/SDL_windowevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/file/SDL_rwops.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/filesystem/unix/SDL_sysfilesystem.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/haptic/SDL_haptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/haptic/linux/SDL_syshaptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/joystick/SDL_gamecontroller.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/joystick/SDL_joystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/joystick/linux/SDL_sysjoystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/joystick/steam/SDL_steamcontroller.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/joystick/steam/SDL_steamcontroller.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_atan2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_fmod.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_log.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_log10.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_pow.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_rem_pio2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/e_sqrt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/k_cos.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/k_rem_pio2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/k_sin.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/k_tan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_atan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_copysign.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_cos.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_fabs.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_floor.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_scalbn.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_sin.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/libm/s_tan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/loadso/dlopen/SDL_sysloadso.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/main/dummy/SDL_dummy_main.c">
+			<Option target="SDL2main"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/power/SDL_power.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/power/linux/SDL_syspower.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/SDL_d3dmath.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/SDL_d3dmath.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/SDL_render.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/SDL_yuv_sw.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d/SDL_render_d3d.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d/SDL_shaders_d3d.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d/SDL_shaders_d3d.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d11/SDL_render_d3d11.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/direct3d11/SDL_shaders_d3d11.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengl/SDL_render_gl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengl/SDL_shaders_gl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengl/SDL_shaders_gl.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengles/SDL_render_gles.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengles2/SDL_render_gles2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengles2/SDL_shaders_gles2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/opengles2/SDL_shaders_gles2.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/psp/SDL_render_psp.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendfillrect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendfillrect.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendline.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendline.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendpoint.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_blendpoint.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_drawline.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_drawline.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_drawpoint.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_drawpoint.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_render_sw.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_rotate.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/render/software/SDL_rotate.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_getenv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_iconv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_malloc.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_qsort.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_stdlib.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/stdlib/SDL_string.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/SDL_thread.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/pthread/SDL_syscond.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/pthread/SDL_sysmutex.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/pthread/SDL_syssem.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/pthread/SDL_systhread.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/thread/pthread/SDL_systls.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/timer/SDL_timer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/timer/unix/SDL_systimer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_RLEaccel.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_0.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_1.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_A.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_N.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_auto.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_auto.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_copy.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_copy.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_slow.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_blit_slow.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_bmp.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_clipboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_egl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_fillrect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_pixels.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_rect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_shape.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_stretch.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_surface.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_video.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_vulkan_utils.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/SDL_yuv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/dummy/SDL_nullevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/dummy/SDL_nullframebuffer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/dummy/SDL_nullvideo.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/dummy/SDL_nullvideo.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11clipboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11clipboard.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11dyn.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11dyn.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11events.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11events.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11framebuffer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11framebuffer.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11keyboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11keyboard.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11messagebox.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11messagebox.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11modes.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11modes.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11mouse.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11mouse.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11opengl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11opengl.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11opengles.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11opengles.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11shape.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11shape.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11touch.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11touch.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11video.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11video.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11vulkan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11vulkan.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11window.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11window.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11xinput2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/SDL_x11xinput2.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/edid-parse.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/imKStoUCS.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/x11/imKStoUCS.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/yuv2rgb/yuv_rgb.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/src/video/yuv2rgb/yuv_rgb.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/gustavo/dev/botijo/3rd_party/sdl2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

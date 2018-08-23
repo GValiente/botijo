@@ -1,0 +1,819 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1febe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1febe.dir/build.make CMakeFiles/cmTC_1febe.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1febe.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_1febe.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:1:0: error: -mpreferred-stack-boundary=2 is not between 4 and 12
+ int x = 0; int main(int argc, char **argv) {}
+ ^
+CMakeFiles/cmTC_1febe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1febe.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1febe.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1febe/fast' failed
+make: *** [cmTC_1febe/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cda61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cda61.dir/build.make CMakeFiles/cmTC_cda61.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cda61.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTC_cda61.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_cda61.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cda61.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cda61.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cda61/fast' failed
+make: *** [cmTC_cda61/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_299ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_299ff.dir/build.make CMakeFiles/cmTC_299ff.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_299ff.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTC_299ff.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option ‘-maltivec’
+CMakeFiles/cmTC_299ff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_299ff.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_299ff.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_299ff/fast' failed
+make: *** [cmTC_299ff/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca64d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca64d.dir/build.make CMakeFiles/cmTC_ca64d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca64d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_ca64d.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: libunwind.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ca64d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ca64d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ca64d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ca64d/fast' failed
+make: *** [cmTC_ca64d/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2958/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2958.dir/build.make CMakeFiles/cmTC_e2958.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2958.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_e2958.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2958
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2958.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_e2958.dir/CheckFunctionExists.c.o  -o cmTC_e2958 
+CMakeFiles/cmTC_e2958.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e2958.dir/build.make:97: recipe for target 'cmTC_e2958' failed
+make[1]: *** [cmTC_e2958] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e2958/fast' failed
+make: *** [cmTC_e2958/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5f96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5f96.dir/build.make CMakeFiles/cmTC_d5f96.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5f96.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_d5f96.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5f96
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f96.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_d5f96.dir/CheckFunctionExists.c.o  -o cmTC_d5f96 
+CMakeFiles/cmTC_d5f96.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d5f96.dir/build.make:97: recipe for target 'cmTC_d5f96' failed
+make[1]: *** [cmTC_d5f96] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d5f96/fast' failed
+make: *** [cmTC_d5f96/fast] Error 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19783/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19783.dir/build.make CMakeFiles/cmTC_19783.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19783.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTC_19783.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19783
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19783.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev    -rdynamic CMakeFiles/cmTC_19783.dir/CheckFunctionExists.c.o  -o cmTC_19783 
+CMakeFiles/cmTC_19783.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strrev'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_19783.dir/build.make:97: recipe for target 'cmTC_19783' failed
+make[1]: *** [cmTC_19783] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_19783/fast' failed
+make: *** [cmTC_19783/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6b03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6b03.dir/build.make CMakeFiles/cmTC_b6b03.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6b03.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTC_b6b03.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6b03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6b03.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr    -rdynamic CMakeFiles/cmTC_b6b03.dir/CheckFunctionExists.c.o  -o cmTC_b6b03 
+CMakeFiles/cmTC_b6b03.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strupr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b6b03.dir/build.make:97: recipe for target 'cmTC_b6b03' failed
+make[1]: *** [cmTC_b6b03] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b6b03/fast' failed
+make: *** [cmTC_b6b03/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac5dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac5dd.dir/build.make CMakeFiles/cmTC_ac5dd.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac5dd.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTC_ac5dd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac5dd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac5dd.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr    -rdynamic CMakeFiles/cmTC_ac5dd.dir/CheckFunctionExists.c.o  -o cmTC_ac5dd 
+CMakeFiles/cmTC_ac5dd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strlwr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ac5dd.dir/build.make:97: recipe for target 'cmTC_ac5dd' failed
+make[1]: *** [cmTC_ac5dd] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ac5dd/fast' failed
+make: *** [cmTC_ac5dd/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5057f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5057f.dir/build.make CMakeFiles/cmTC_5057f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5057f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTC_5057f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5057f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5057f.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa    -rdynamic CMakeFiles/cmTC_5057f.dir/CheckFunctionExists.c.o  -o cmTC_5057f 
+CMakeFiles/cmTC_5057f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `itoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5057f.dir/build.make:97: recipe for target 'cmTC_5057f' failed
+make[1]: *** [cmTC_5057f] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5057f/fast' failed
+make: *** [cmTC_5057f/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6589a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6589a.dir/build.make CMakeFiles/cmTC_6589a.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6589a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTC_6589a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6589a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6589a.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa    -rdynamic CMakeFiles/cmTC_6589a.dir/CheckFunctionExists.c.o  -o cmTC_6589a 
+CMakeFiles/cmTC_6589a.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ltoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6589a.dir/build.make:97: recipe for target 'cmTC_6589a' failed
+make[1]: *** [cmTC_6589a] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6589a/fast' failed
+make: *** [cmTC_6589a/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_248ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_248ff.dir/build.make CMakeFiles/cmTC_248ff.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_248ff.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTC_248ff.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_248ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_248ff.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa    -rdynamic CMakeFiles/cmTC_248ff.dir/CheckFunctionExists.c.o  -o cmTC_248ff 
+CMakeFiles/cmTC_248ff.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_uitoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_248ff.dir/build.make:97: recipe for target 'cmTC_248ff' failed
+make[1]: *** [cmTC_248ff] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_248ff/fast' failed
+make: *** [cmTC_248ff/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73c35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73c35.dir/build.make CMakeFiles/cmTC_73c35.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73c35.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTC_73c35.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73c35
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73c35.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa    -rdynamic CMakeFiles/cmTC_73c35.dir/CheckFunctionExists.c.o  -o cmTC_73c35 
+CMakeFiles/cmTC_73c35.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ultoa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_73c35.dir/build.make:97: recipe for target 'cmTC_73c35' failed
+make[1]: *** [cmTC_73c35] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_73c35/fast' failed
+make: *** [cmTC_73c35/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fed2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fed2b.dir/build.make CMakeFiles/cmTC_fed2b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fed2b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTC_fed2b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fed2b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fed2b.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa    -rdynamic CMakeFiles/cmTC_fed2b.dir/CheckFunctionExists.c.o  -o cmTC_fed2b 
+CMakeFiles/cmTC_fed2b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_i64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fed2b.dir/build.make:97: recipe for target 'cmTC_fed2b' failed
+make[1]: *** [cmTC_fed2b] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fed2b/fast' failed
+make: *** [cmTC_fed2b/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82db0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82db0.dir/build.make CMakeFiles/cmTC_82db0.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82db0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTC_82db0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82db0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82db0.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa    -rdynamic CMakeFiles/cmTC_82db0.dir/CheckFunctionExists.c.o  -o cmTC_82db0 
+CMakeFiles/cmTC_82db0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_ui64toa'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_82db0.dir/build.make:97: recipe for target 'cmTC_82db0' failed
+make[1]: *** [cmTC_82db0] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82db0/fast' failed
+make: *** [cmTC_82db0/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78e3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78e3e.dir/build.make CMakeFiles/cmTC_78e3e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78e3e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_78e3e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78e3e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e3e.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp    -rdynamic CMakeFiles/cmTC_78e3e.dir/CheckFunctionExists.c.o  -o cmTC_78e3e 
+CMakeFiles/cmTC_78e3e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_78e3e.dir/build.make:97: recipe for target 'cmTC_78e3e' failed
+make[1]: *** [cmTC_78e3e] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78e3e/fast' failed
+make: *** [cmTC_78e3e/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a665.dir/build.make CMakeFiles/cmTC_5a665.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a665.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_5a665.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a665
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a665.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp    -rdynamic CMakeFiles/cmTC_5a665.dir/CheckFunctionExists.c.o  -o cmTC_5a665 
+CMakeFiles/cmTC_5a665.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5a665.dir/build.make:97: recipe for target 'cmTC_5a665' failed
+make[1]: *** [cmTC_5a665] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5a665/fast' failed
+make: *** [cmTC_5a665/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80104/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80104.dir/build.make CMakeFiles/cmTC_80104.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80104.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_80104.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80104
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80104.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname    -rdynamic CMakeFiles/cmTC_80104.dir/CheckFunctionExists.c.o  -o cmTC_80104 
+CMakeFiles/cmTC_80104.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sysctlbyname'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_80104.dir/build.make:97: recipe for target 'cmTC_80104' failed
+make[1]: *** [cmTC_80104] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80104/fast' failed
+make: *** [cmTC_80104/fast] Error 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acca9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acca9.dir/build.make CMakeFiles/cmTC_acca9.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acca9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_acca9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_acca9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acca9.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open    -rdynamic CMakeFiles/cmTC_acca9.dir/CheckFunctionExists.c.o  -o cmTC_acca9 -liconv 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_acca9.dir/build.make:97: recipe for target 'cmTC_acca9' failed
+make[1]: *** [cmTC_acca9] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_acca9/fast' failed
+make: *** [cmTC_acca9/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1d76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1d76.dir/build.make CMakeFiles/cmTC_d1d76.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1d76.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_d1d76.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’
+/usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^
+Linking C executable cmTC_d1d76
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1d76.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_d1d76.dir/CheckFunctionExists.c.o  -o cmTC_d1d76 
+CMakeFiles/cmTC_d1d76.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x1f): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d1d76.dir/build.make:97: recipe for target 'cmTC_d1d76' failed
+make[1]: *** [cmTC_d1d76] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d1d76/fast' failed
+make: *** [cmTC_d1d76/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6b28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6b28.dir/build.make CMakeFiles/cmTC_c6b28.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6b28.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_c6b28.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6b28
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b28.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_c6b28.dir/CheckFunctionExists.c.o  -o cmTC_c6b28 
+CMakeFiles/cmTC_c6b28.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c6b28.dir/build.make:97: recipe for target 'cmTC_c6b28' failed
+make[1]: *** [cmTC_c6b28] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c6b28/fast' failed
+make: *** [cmTC_c6b28/fast] Error 2
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a8e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a8e4.dir/build.make CMakeFiles/cmTC_9a8e4.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a8e4.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_9a8e4.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: alsa/asoundlib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_9a8e4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a8e4.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a8e4.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a8e4/fast' failed
+make: *** [cmTC_9a8e4/fast] Error 2
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa13b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa13b.dir/build.make CMakeFiles/cmTC_fa13b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa13b.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_fa13b.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: audio/audiolib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_fa13b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fa13b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fa13b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fa13b/fast' failed
+make: *** [cmTC_fa13b/fast] Error 2
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3596/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3596.dir/build.make CMakeFiles/cmTC_e3596.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3596.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_e3596.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: sndio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_e3596.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e3596.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e3596.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e3596/fast' failed
+make: *** [cmTC_e3596/fast] Error 2
+
+
+Determining if the include file samplerate.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30f11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30f11.dir/build.make CMakeFiles/cmTC_30f11.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30f11.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_30f11.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:24: fatal error: samplerate.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_30f11.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_30f11.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_30f11.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_30f11/fast' failed
+make: *** [cmTC_30f11/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_RPI failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df45f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df45f.dir/build.make CMakeFiles/cmTC_df45f.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df45f.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_RPI  -I/opt/vc/include/interface/vmcs_host/linux/ -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include  -L/opt/vc/lib   -o CMakeFiles/cmTC_df45f.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:2:30: fatal error: bcm_host.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_df45f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_df45f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_df45f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_df45f/fast' failed
+make: *** [cmTC_df45f/fast] Error 2
+
+Source file was:
+
+        #include <bcm_host.h>
+        int main(int argc, char **argv) {}
+Determining if the include file X11/extensions/scrnsaver.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fc54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fc54.dir/build.make CMakeFiles/cmTC_5fc54.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc54.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_5fc54.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:38: fatal error: X11/extensions/scrnsaver.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_5fc54.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5fc54.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5fc54.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5fc54/fast' failed
+make: *** [cmTC_5fc54/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V1 failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7955c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7955c.dir/build.make CMakeFiles/cmTC_7955c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7955c.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_OPENGLES_V1   -o CMakeFiles/cmTC_7955c.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: GLES/gl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_7955c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7955c.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7955c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7955c/fast' failed
+make: *** [cmTC_7955c/fast] Error 2
+
+Source file was:
+
+      #include <GLES/gl.h>
+      #include <GLES/glext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_VDK failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00981/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00981.dir/build.make CMakeFiles/cmTC_00981.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00981.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_VIVANTE_VDK   -o CMakeFiles/cmTC_00981.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:2:28: fatal error: gc_vdk.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_00981.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_00981.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_00981.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_00981/fast' failed
+make: *** [cmTC_00981/fast] Error 2
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80f9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80f9b.dir/build.make CMakeFiles/cmTC_80f9b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80f9b.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_VIDEO_VIVANTE_EGL_FB   -o CMakeFiles/cmTC_80f9b.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:4:36: fatal error: EGL/eglvivante.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_80f9b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_80f9b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_80f9b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80f9b/fast' failed
+make: *** [cmTC_80f9b/fast] Error 2
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) {}
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03548/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03548.dir/build.make CMakeFiles/cmTC_03548.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03548.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_03548.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: libudev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_03548.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_03548.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_03548.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_03548/fast' failed
+make: *** [cmTC_03548/fast] Error 2
+
+
+Determining if the include file fcitx/frontend.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d32ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d32ab.dir/build.make CMakeFiles/cmTC_d32ab.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d32ab.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_d32ab.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: fcitx/frontend.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d32ab.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d32ab.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d32ab.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d32ab/fast' failed
+make: *** [cmTC_d32ab/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35c88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35c88.dir/build.make CMakeFiles/cmTC_35c88.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35c88.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTC_35c88.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:2:27: fatal error: tslib.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_35c88.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_35c88.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_35c88.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35c88/fast' failed
+make: *** [cmTC_35c88/fast] Error 2
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d4eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d4eb.dir/build.make CMakeFiles/cmTC_7d4eb.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d4eb.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_7d4eb.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d4eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d4eb.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_7d4eb.dir/CheckFunctionExists.c.o  -o cmTC_7d4eb -lusbhid 
+/usr/bin/ld: cannot find -lusbhid
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7d4eb.dir/build.make:97: recipe for target 'cmTC_7d4eb' failed
+make[1]: *** [cmTC_7d4eb] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d4eb/fast' failed
+make: *** [cmTC_7d4eb/fast] Error 2
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ac7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ac7e.dir/build.make CMakeFiles/cmTC_1ac7e.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ac7e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_1ac7e.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:17: fatal error: usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_1ac7e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1ac7e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1ac7e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1ac7e/fast' failed
+make: *** [cmTC_1ac7e/fast] Error 2
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31c0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31c0c.dir/build.make CMakeFiles/cmTC_31c0c.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31c0c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos    -o CMakeFiles/cmTC_31c0c.dir/CheckIncludeFile.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: fatal error: libusb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_31c0c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_31c0c.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_31c0c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_31c0c/fast' failed
+make: *** [cmTC_31c0c/fast] Error 2
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1167d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1167d.dir/build.make CMakeFiles/cmTC_1167d.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1167d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTC_1167d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1167d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1167d.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=hid_init    -rdynamic CMakeFiles/cmTC_1167d.dir/CheckFunctionExists.c.o  -o cmTC_1167d -lusb 
+/usr/bin/ld: cannot find -lusb
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1167d.dir/build.make:97: recipe for target 'cmTC_1167d' failed
+make[1]: *** [cmTC_1167d] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1167d/fast' failed
+make: *** [cmTC_1167d/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7d9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7d9b.dir/build.make CMakeFiles/cmTC_a7d9b.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7d9b.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_USBHID   -o CMakeFiles/cmTC_a7d9b.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:10:34: fatal error: dev/usb/usb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a7d9b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7d9b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7d9b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7d9b/fast' failed
+make: *** [cmTC_a7d9b/fast] Error 2
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7b18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7b18.dir/build.make CMakeFiles/cmTC_d7b18.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7b18.dir/src.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DHAVE_PTHREAD_NP_H   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_d7b18.dir/src.c.o   -c /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c
+/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp/src.c:3:34: fatal error: pthread_np.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d7b18.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d7b18.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d7b18.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d7b18/fast' failed
+make: *** [cmTC_d7b18/fast] Error 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80ea1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80ea1.dir/build.make CMakeFiles/cmTC_80ea1.dir/build
+make[1]: Entering directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80ea1.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_80ea1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80ea1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80ea1.dir/link.txt --verbose=1
+/usr/bin/gcc  -idirafter /home/gustavo/dev/botijo/3rd_party/sdl2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_set_name_np   -D_REENTRANT -pthread    -rdynamic CMakeFiles/cmTC_80ea1.dir/CheckFunctionExists.c.o  -o cmTC_80ea1 
+CMakeFiles/cmTC_80ea1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pthread_set_name_np'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_80ea1.dir/build.make:97: recipe for target 'cmTC_80ea1' failed
+make[1]: *** [cmTC_80ea1] Error 1
+make[1]: Leaving directory '/home/gustavo/dev/botijo/3rd_party/sdl2/build_linux_x86/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80ea1/fast' failed
+make: *** [cmTC_80ea1/fast] Error 2
+
+
